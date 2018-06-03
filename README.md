@@ -20,7 +20,10 @@ I recommend to use difficulty emperor(AI is stupid comparing with its predecesso
 
 ## How to use
 
-You should have basic knowledge of Civilization VI directory structure and mods using. There is included in reference links file.
+You should have basic knowledge of Civilization VI directory structure and mods using. Reference links:
+
+- [Modding][http://civilization.wikia.com/wiki/Modding_(Civ6)]
+- [Enable Ingame World Builder](https://forums.civfanatics.com/threads/how-to-launch-the-ingame-worldbuilder.600327/)
 
 
 
