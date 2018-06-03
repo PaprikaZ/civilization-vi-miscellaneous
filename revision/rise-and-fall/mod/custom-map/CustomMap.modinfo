@@ -1,0 +1,41 @@
+<!-- original links: https://steamcommunity.com/sharedfiles/filedetails/?id=876864462 -->
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="E079B3E2-ADF2-4195-8F2A-15D2C8B5C6A1">
+	<Properties>
+		<Name>Custom Map</Name>
+		<Teaser>Mod to play custom maps</Teaser>
+		<Description>
+			Place your map in the directory with the filename Main.Civ6Map. The map will appear in the map type dropdown after selecting the custom map ruleset during game setup.
+		</Description>
+		<Authors>Author Name</Authors>
+	</Properties>
+	<Settings>
+		<Custom id="CM_RULESET_CONFIG">
+			<Items>
+				<File>RulesetConfig.xml</File>
+			</Items>
+		</Custom>
+		<!--To ADD a new map copy this entire Map section-->
+		<Map id="CM_MAP">
+			<Properties>
+				<Group>StandardMaps</Group>
+				<Name>Custom Map</Name>
+				<Description>Main.Civ6Map</Description>
+			</Properties>
+			<Items>
+				<File>Maps/Main.Civ6Map</File>
+			</Items>
+		</Map>
+		<!--Change the Map id to a new one, like "CM1_MAP" or "CM2_MAP"-->
+		<!--In the properties section ONLY change Name and Description. The Group must stay the same-->
+		<!--In the items section change the filename to match the real filename. Include the Maps/ part of the name if it is actually located in the Maps folder-->
+	</Settings>
+	<Components>
+		<UpdateDatabase />
+	</Components>
+	<Files>
+		<!--This part is very simple, just make sure the filenames all match up-->
+		<File>Maps/Main.Civ6Map</File>
+		<File>RulesetConfig.xml</File>
+	</Files>
+</Mod>

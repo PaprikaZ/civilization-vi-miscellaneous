@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+<RulesetDomainOverrides>
+	<Row Ruleset="RULESET_EXPANSION_1" ParameterId="Map" Domain="StandardMaps"/>
+	<!-- <Row Ruleset="RULESET_EXPANSION_1" ParameterId="PlayerLeader" Domain="Players:Expansion1_Players"/> -->
+	<!--This updates the standard ruleset to include the new map(s) we are adding into the StandardMaps group-->
+</RulesetDomainOverrides>
+</GameInfo>
